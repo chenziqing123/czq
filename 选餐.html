@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    var people = window.confirm("吃不吃午饭") ;
+    if(people){
+        var number = window.prompt("几个人吃","");
+        for(var i=0;i<number;i++){
+            var name = window.prompt("第"+(i+1)+"个人叫啥","");
+        }
+         
+        
+    }
+   else{
+       alert("不吃拉倒");
+   }
+   console.log(people);
+    </script>
+</body>
+</html>
